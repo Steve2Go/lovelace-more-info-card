@@ -80,10 +80,10 @@ class MoreInfoCard extends LitElement {
                 ${DOMAINS_NO_INFO.includes(domain)
                   ? ""
                   : html`
-                      <state-card-content
+                      <!--<state-card-content
                         .stateObj=${stateObj}
                         .hass=${this.hass}
-                      ></state-card-content>
+                      ></state-card-content>-->
                     `}
                 <more-info-content
                   .hass=${this.hass}
